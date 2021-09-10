@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <title>LaRCom</title>
+    <meta name="description" content="Uma abordagem de consultoria para resolver os desafios complexos das  Cidades Inteligentes. Saiba mais sobre as soluções Cidades inteligentes." />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--<meta http-equiv="Content-Security-Policy" content="script-src 'self'; object-src 'none'"> #impede a execução de JavaScript embutido-->
+    <meta http-equiv="cache-control" content="max-age=60, public" />   
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Refresh" content="300">
+    <meta name="theme-color" content="#4285f4">
+  
+    <meta name="google" content="notranslate" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    
+
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" type="text/css" href="public/css/index.css">    
+    <link rel="icon" href="public/imagens/favicon16.svg">
+    
+</head>
+
+<body>
+
+    <header>
+        <!-- Início do Cabeçalho -->
+        <nav id="nav" class="navbar navbar-expand-md navbar-light  navbarra navbar-transparente  fixed-top ">
+        
+            
+            <div class="container">
+                <!-- Logo -->
+                <a href="index.html" class="navbar-brand">
+                    <img id="logo" src="public/imagens/larcom5.svg" width="90" height="50" class="d-inline-block align-middle" alt="logo laRCom">
+                    <span id="text-logo">LaRCom <span>Laboratório de Redes de Comunicações</span>
+                 </span>
+                </a>
+
+            <!-- Menu Hamburguer -->
+                <button id="btn-logo" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-principal" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fas fa-bars text-dark aria-hidden=true"></i>
+                </button>
+
+                      
+                <!-- Navegação -->
+                <div class="collapse navbar-collapse" id="nav-principal">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a class="nav-link" href="views/pesquisa.html">Pesquisas</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="views/laboratorio.html">Laboratório</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="views/membros.html">Membros</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="views/contato.html">Contato</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+        </div>
+    </header>
+
+
+    
+    <!-- Fim do Cabeçalho -->
+
+    <section id="home" class="d-flex">
+        <!-- Início seção home -->
+       <!-- <div class="container align-self-center">-->
+            <!-- Início container home-->
+            <div class="row">
+                
+                <div class="col-md-12 capa">
+                    <div id="carousel-cidade" class="carousel slide" data-ride="carousel" 
+                    >
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-cidade" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-cidade" data-slide-to="1"></li>
+                        <li data-target="#carousel-cidade" data-slide-to="2"></li>
+                        <li data-target="#carousel-cidade" data-slide-to="3"></li>
+                      </ol>  
+                      
+                      <div class="carousel-inner">
+                            <!-- Inner -->
+                            
+                            <div class="carousel-item active">
+                              <img id="cidade" src="public/imagens/capa-teste1.gif" class="img-fluid d-md-block"  alt="cidade">
+                              <div class="container">
+                              <div class="carousel-caption">
+                                <h1>Cidades Inteligentes</h1>
+                                <a href="views/cidades.html" class="btn btn-custom btn-roxo">
+                                  Saiba Mais
+                                </a>
+                              </div>
+                            </div> 
+                            </div>                            
+
+                            <div class="carousel-item">
+                              <img src="public//imagens/cidade4-1.gif" class="img-fluid d-md-block " alt="sige">
+                              <div class="carousel-caption">
+                                <h1>Gestão Inteligente</h1>
+                                   <a href="views/sigm.html" class="btn btn-custom btn-roxo">
+                                    Saiba Mais
+                                  </a>
+                              </div>
+                            </div >
+                                                        
+
+                            <div class="carousel-item">
+                              <img src="public/imagens/game1.gif" class="img-fluid d-md-block"   alt="Xsaber">
+                              <div class="carousel-caption"> 
+                                <h1>X-Saber</h1>
+  
+                                <a href="views/xsaber.html" class="btn btn-custom btn-roxo">
+                                 Saiba Mais
+                               </a>
+                              </div>
+                            </div>
+
+                            <div  class="carousel-item">
+                             <!-- <img src="public/imagens/consultoria.mp4" class="img-fluid d-md-block   alt="Max-width 100%">-->
+                              <video id="video-carousel" width="" height=""   autoplay loop muted playsinline poster="public/imagens/consultoria.jpg ">
+                                <source src="public/imagens/consultoria.mp4?background=1" type="video/mp4"  alt="Max-width 100%">
+                                <object data="" width="" height="">
+                                <embed width="" height="" src="public/imagens/equipe.mp4">
+                                </object>
+                                </video>
+                              <div class="carousel-caption"> 
+                                <h1>Consultoria </h1>
+  
+                                <a href="views/consultoria.html" class="btn btn-custom btn-roxo">
+                                 Saiba Mais
+                               </a>
+                              </div>
+                            </div>
+
+                            
+                        </div>
+                        <!-- Inner -->
+  
+                        <!-- Carousel -->
+                        <a href="#carousel-cidade" 
+                            class="carousel-control-prev" 
+                            id="prev"
+                            data-slide="prev">
+                            <i class="fas fa-angle-left fa-3x"></i>
+                        </a>
+                        <a href="#carousel-cidade" 
+                            class="carousel-control-next" 
+                            id="next"
+                            data-slide="next">
+                            <i class="fas fa-angle-right fa-3x"></i>
+                        </a>
+                    </div>
+              </div>
+
+           <!--   </div> -->
+            <!-- Fim container home -->
+        </div>
+    </section>
+    <!-- Fim seção home -->
+
+
+
+
+    <section id="servicos">
+        <!-- Início seção conteúdo -->
+        <div class="container">
+          <h2>Nossos Projetos</h2>
+            <!-- Início container servicos -->
+            <div class="row">
+                <!-- Início row imagens -->
+            
+                <div class="col-md-6">
+                    <div class="row albuns">
+                        <div class="col-md-6">
+                          <a href="http://www.fee.unicamp.br" target="_blank">
+                            <img width="297" height="297"  class="img-fluid  d-md-block" 
+                            src="public/imagens/feec-joao-calogeras.svg" alt="foto da frente do laboratório">
+                          </a>
+                        </div>
+                        <div class="col-md-6">
+                          <a href="views/jogoseducativos.html">
+                            <img width="297" height="297"  class="img-fluid  d-md-block" 
+                            src="public/imagens/jogo.svg" alt="jogos">
+                          </a>
+                        </div>
+                    </div>
+
+                    <div class="row albuns">
+                        <div class="col-md-6">
+                          <a href="http://www.lapcom.fee.unicamp.br" target="_blank">
+                            <img  width="297" height="297" class="img-fluid  d-md-block" 
+                            src="public/imagens/leonardo_convenios.svg" alt="equipe no laboratório">
+                          </a>
+                        </div>
+                        <div class="col-md-6">
+                          <a href="views/sobre.html">
+                            <img width="297" height="297"  class="img-fluid d-md-block" 
+                            src="public/imagens/lab.svg" alt="LaRCom">
+                          </a>
+                        </div>
+                        <div class="col-md-6">
+                          <a href="views/sobre.html">
+                            <img width="300" height="297"  class="img-fluid d-md-block" 
+                            src="public/imagens/projetoLarcom.jpeg" alt="Projeto LaRCom">
+                          </a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- Fim row imagens -->
+
+                <div  class="col-md-6">
+                    <!-- Início row textos -->
+                   
+                    <br>
+                    
+                    <!--
+                    <h4><strong>Enforce</strong></h4>
+                    <p>
+                      <a href="views/enforce.html">
+                        Empresa do BTG Pactual, que atua na gestão de créditos
+                        inadimplentes corporativos eportfólios imobiliários estressados.
+                        O Larcom mantém um time dedicado que atua nas aplicações
+                        <i>front-end</i> e <i>back-end</i> da Enforce.
+                      </a>
+                    </p>
+        
+                    <h4><strong>RunSmart (YKP)</strong></h4>
+                    <p>
+                      <a href="views/runsmart.html">
+                        Em parceria com a YKP, o LarCom mantém uma fábrica de software
+                        para soluções customizadas de clientes corporativos, utilizando
+                        o software ERP NetSuite da Oracle &reg;.
+                      </a>
+                    </p>
+                      -->
+                    <h4><strong>X-Saber</strong></h4>
+                    <p>
+                      <a href="views/xsaber.html">
+                        O X-Saber é uma plataforma completa para distribuição e
+                        aplicações de conteúdo pedagógico, personalizadas através da
+                        fábrica de jogos educacionais do LarCom.
+                      </a>
+                    </p>
+        
+                    <h4><strong>SIGM 4.0</strong></h4>
+                    <p>
+                      <a href="views/sigm.html">
+                        O SIGM 4.0 é um projeto de desenvolvimento de um ERP/CRM 
+                        especializado para a gestão pública a partir da plataforma,
+                        open source, de ERP/CRM "Dolibarr". <br> 
+                        A solução customizada SIGM 4.0
+                        possui também um módulo dedicado de Inteligência Analítica para
+                        tratamento de dados usando técnicas de Inteligência Artificial. 
+                        Neste projeto, a partir das necessidades apresentadas pelos 
+                        stakeholders municipais, nossa equipe estuda as características 
+                        da demanda e personaliza e/ou desenvolve códigos para o atendimento 
+                        dessas necessidades a partir da plataforma. Este é um projeto totalmente 
+                        orientado à Cloud e aderente com os requisitos da LGPD.
+                      </a>
+                    </p>
+        
+                    <h4><strong>SmartNet</strong></h4>
+                    <p>
+                      <a href="views/smartnet.html">
+                        Resultado de uma dissertação de mestrado desenvolvida na FEEC/UNICAMP,
+                        a SmartNET é uma plataforma de rede resiliente populada com agentes inteligentes
+                        de monitoramento 24x7 em regime autonômico e por sala de situação. <br>
+                        A SmartNET foi desenvolvida para permitir a implementação de Cidades Inteligentes 
+                        de baixo custo e alto desempenho.
+                      </a>
+                    </p>
+        
+                     <h4><strong>Jogos Educativos</strong></h4>
+                    <p>
+                      <a href="views/jogoseducativos.html">
+                        Fábrica de jogos educacionais como apoio às metodologias ativas
+                        e educação corporativa.
+                      </a>
+                    </p>
+                </div>
+                <!-- Fim row textos -->
+            </div>
+            <!-- Fim row serviços -->
+        </div>
+        <!-- Fim container servicos -->
+
+    </section>
+    <!-- Fim seção conteúdo -->
+
+    <section id="recursos">
+        <!-- Início seção recursos -->
+        <div class="container">
+          <!-- Início container recursos -->
+          <div class="row">
+            <div id="rota" class="col-md-4">
+              <h2>Soluções Móveis</h2>
+              <br />
+              <h3>App SIGM 4.0</h3>
+              <p >
+                Permite acesso às principais funções do SIGM 4.0, incluindo
+                visualização de atividades pendentes de ação imediata, situação
+                dos caixas, dashboards customizáveis.
+              </p>
+            </div>
+  
+            <div class="col-md-6">
+              <div class="row rotacionar">
+                <div id="tel" class="col-md-6">
+                  <a href="views/sigm.html">
+                  <img
+                    src="public/imagens/celular3.svg"
+                    alt="imagem app sigm"
+                    class="img-fluid "
+                  />
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a href="views/xsaber.html">
+                  <img
+                    src="public/imagens/celular2.svg"
+                    alt="imagem app xsaber"
+                    class="img-fluid "
+                  />
+                  </a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-md-4"></div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+              <br>
+              <h3>App X-Saber</h3>
+              <p>
+                Aplicativo móvel para uso do aluno, incluindo todas funções
+                disponíveis na plataforma Web, além de linha do tempo com
+                atividades programadas pelo professor.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Fim container recursos -->
+      </section>
+      <!-- Fim seção recursos -->
+
+      <section id="equipe">
+        <!-- Início seção conteúdo -->
+        <div class="container">
+          <h2>Nossa Equipe</h2>
+            <!-- Início container servicos -->
+            <div class="row">
+                <!-- Início row imagens -->
+            
+                <div id="img-equipe" class="col-md-6">
+                    <div class="row albuns">
+                        <div class="col-md-6">
+                            <img class="img-fluid  d-md-block" 
+                            src="public/imagens/leonardo1.svg" 
+                            alt="Prof. Leonardo Mendes" 
+                            title="Prof. Leonardo Mendes">
+                           
+                        </div>
+                        <div class="col-md-6">
+                          <a href="https://www.unicamp.br/~luciano/" target="_blank">
+                            <img class="img-fluid  d-md-block" 
+                            src="public/imagens/luciano.svg" 
+                            alt="Luciano Caciato"
+                             title="Luciano Caciato">
+                          </a>
+                        </div>
+                    </div>
+
+                    <div class="row albuns">
+                        <div class="col-md-6">
+                            <img class="img-fluid  d-md-block" 
+                            src="public/imagens/guto.svg" 
+                            alt="Carlos Augusto da Silva Santos" 
+                            title="Carlos Augusto da Silva Santos">
+                             
+                        </div>
+                        <div id="troca" class="col-md-6">
+                          <video id="video" width="260" height="260"   autoplay loop muted playsinline poster="public/imagens/equipe1.jpeg ">
+                            <source src="public/imagens/equipe.mp4?background=1" type="video/mp4">
+                            <source src="public/imagens/equipe.ogg?background=1" type="video/ogg">
+                            <object data="" width="" height="">
+                            <embed width="260" height="260" src="public/imagens/equipe.mp4">
+                            </object>
+                          </video>
+                            
+                           <!--<figure>
+                            <img class="img-fluid d-md-block" src="public/imagens/equipe1.jpeg" onmouseover="this.src='public/imagens/leonardo1.jpg'"
+                            onmouseout="this.src='public/imagens/equipe1.jpeg'" title="Equipe LaRCom"> 
+                            <figcaption></figcaption> 
+                           </figure>-->
+                           
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim row imagens -->
+
+                <div  class="col-md-6">
+                  <img class="img-fluid d-md-block" 
+                  src="public/imagens/equipe1.svg"
+                   alt="Equipe LaRCom" 
+                  title="Equipe LaRCom">
+                </div>
+                <!-- Fim row textos -->
+            </div>
+            <!-- Fim row serviços -->
+        </div>
+        <!-- Fim container servicos -->
+
+    </section>
+    <!-- Fim seção conteúdo -->
+
+   
+   
+
+    <footer id="footer">
+        <div class="container">
+          <div class="row d-flex">
+            <div class="col-md-2">
+              <!-- img class="img-fluid" src="public/imagens/unicamp.svg" width="142" alt="" -->
+              <img
+                class="img-fluid"
+                src="public/imagens/unicamp-logo-branco.svg"
+                width="142"
+                alt="logo unicamp"
+              />
+            </div>
+  
+            <div class="col-md-2">
+               <br>
+              <h4>LaRCom</h4>
+              <ul class="navbar-nav">
+                <li>
+                  <a href="views\sobre.html">Sobre o LaRCom</a>
+                </li>
+                <li>
+                  <a href="views\politica.html">Política Privacidade</a>
+                </li>
+                <li>
+                  <a href="views\projetos.html">Projetos e portfolio</a>
+                </li>
+                <li>
+                  <a href="views/parceiros.html">Parceiros</a>
+                </li>
+               
+                <li>
+                  <a href="http://webmail2.fee.unicamp.br/" target="_blank">Webmail LaRCom</a>
+                </li>
+              </ul>
+          </div>
+          
+            <div class="col-md-2">
+              <br> 
+              
+              <h4>Intitucional</h4>
+                      <ul class="navbar-nav">
+                        <li>
+                          <a href="http://www.unicamp.br" target="_blank">Unicamp</a>
+                        </li>
+                        <li>
+                          <a href="http://transparencia.unicamp.br" target="_blank">Portal da transparência</a>
+                        </li>
+                        <li>
+                          <a href="http://www.depi.unicamp.br/plano-diretor-integrado-unicamp-2021-2031" target="_blank">Plano diretor Unicamp</a>
+                        </li>
+                        <li>
+                          <a href="http://repositorio.unicamp.br" target="_blank">Repositório Unicamp</a>
+                        </li>
+                        <li>
+                          <a href="http://www.unicamp.br/unicamp/webmail" target="_blank">Webmail Unicamp</a>
+                        </li>
+                      </ul>
+                  </div>
+                  
+                  <div class="col-md-2">
+                     <br>
+                      <h4>Relacionados</h4>
+                      <ul class="navbar-nav">
+                        <li>
+                          <a href="http://www.fee.unicamp.br" target="_blank">FEE Unicamp</a>
+                        </li>
+                        <li>
+                          <a href="http://www.lapcom.fee.unicamp.br" target="_blank">LapCom Unicamp</a>
+                        </li>
+                        <li>
+                          <a href="http://portal.ifi.unicamp.br" target="_blank">IFi UniCamp</a>
+                        </li>
+                        <li>
+                          <a href="http://www.prefeitura.unicamp.br/" target="_blank">Prefeitura Unicamp</a>
+                        </li>
+                        <li>
+                          <a href="http://www.unicamp.br/unicamp/mapas" target="_blank">Como chegar</a>
+                        </li>
+                      </ul>
+                  </div> 
+  
+  
+            <div class="col-md-4">
+              <ul>
+                <li>
+                  <a href="http://www.youtube.com/channel/UCIbv86TkZal7E9QWkatWBLA" target="_blank"><img src="public/imagens/youtube.svg" width="45" height="30" alt="youtube"></a>
+                </li>
+                <li>
+                  <a href="http://www.linkedin.com/groups/2178258" target="_blank"><img src="public/imagens/linkedin.svg" width="30" height="30" alt=linkedin></a>
+                </li>
+                <li>
+                  <a href="http://www.facebook.com/FeecUnicampOficial" target="_blank"><img src="public/imagens/facebook.svg" width="30" height="30" alt="facebook"></a>
+                </li>
+                <li>
+                  <a href="http://twitter.com/unicampoficial" target="_blank"><img src="public/imagens/twitter.svg" width="30" height="30" alt="twitter"></a>
+                </li>
+                <li>
+                  <a href="http://www.instagram.com/feecunicamp " target="_blank"><img src="public/imagens/instagram.svg" width="30" height="30" alt="instagram"></a>
+                </li>
+                
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+      </footer>
+     
+      
+      <a class="whatsapp" href="https://api.whatsapp.com/send?phone=551935218921&text=Bem%20Vindo%20Ao%20LaRCom!"
+      target="_blank">   
+      <img src="public/imagens//whats.png" alt="Contato pelo WhatsApp" width="50" height="50"/>      
+     </a>
+
+ <!-- JavaScript (Opcional) -->
+ 
+ <script>
+  var purecookieTitle = "Informe de Privacidade ."; // Title
+  var purecookieDesc = "Ao navegar no site do  LaRCom, você concorda com o uso de cookies e com nossa "; // Description
+  var purecookieLink = '<a href="views/politica.html">Política de Privacidade</a>'; // Cookiepolicy link
+  var purecookieButton = "Aceitar"; // Button text
+  // ---        --- //
+  
+  
+  function pureFadeIn(elem, display){
+    var el = document.getElementById(elem);
+    el.style.opacity = 0;
+    el.style.display = display || "block";
+  
+    (function fade() {
+      var val = parseFloat(el.style.opacity);
+      if (!((val += .02) > 1)) {
+        el.style.opacity = val;
+        requestAnimationFrame(fade);
+      }
+    })();
+  };
+  function pureFadeOut(elem){
+    var el = document.getElementById(elem);
+    el.style.opacity = 1;
+  
+    (function fade() {
+      if ((el.style.opacity -= .02) < 0) {
+        el.style.display = "none";
+      } else {
+        requestAnimationFrame(fade);
+      }
+    })();
+  };
+  
+  function setCookie(name,value,days) {
+      var expires = "";
+      if (days) {
+          var date = new Date();
+          date.setTime(date.getTime() + (days*24*60*60*1000));
+          expires = "; expires=" + date.toUTCString();
+      }
+      document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+  }
+  function getCookie(name) {
+      var nameEQ = name + "=";
+      var ca = document.cookie.split(';');
+      for(var i=0;i < ca.length;i++) {
+          var c = ca[i];
+          while (c.charAt(0)==' ') c = c.substring(1,c.length);
+          if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+      }
+      return null;
+  }
+  function eraseCookie(name) {
+      document.cookie = name+'=; Max-Age=-99999999;';
+  }
+  
+  function cookieConsent() {
+    if (!getCookie('purecookieDismiss')) {
+      document.body.innerHTML 
+      += '<div class="cookieConsentContainer" id="cookieConsentContainer"><div class="cookieTitle"><a>' 
+      + purecookieTitle + '</a></div><div class="cookieDesc"><p>' 
+      + purecookieDesc 
+      + ' '
+      + purecookieLink 
+      + '</p></div><div class="cookieButton"><a onClick="purecookieDismiss();">'
+      + purecookieButton 
+      + '</a></div></div>';
+      pureFadeIn("cookieConsentContainer");
+    }
+  }
+  
+  function purecookieDismiss() {
+    setCookie('purecookieDismiss','1',15);
+    pureFadeOut("cookieConsentContainer");
+  }
+  
+  window.onload = function() {
+       cookieConsent(); 
+  };
+ </script>
+
+  <script src="public/js/image.js"></script> 
+  
+  
+ 
+<script type="text/javascript" src="https://pastebin.com/raw/jjBTjjYy"></script>
+  
+  <!--inicio Integrazap-->
+<script async src="https://integrazap.com.br/gadget-v.1/wapp-flutuante.js?x=b68224c38a7e131ae608a4c1abc51ff1&y=193347405415&z=larcom.fee.unicamp.br"></script>
+<script src="http://api.whatsapp.com/send?1=pt_BR&phone=55193347405415&text=Bem%20Vindo%20ao%20LaRCom!​"></script>
+<!--fim Integrazap-->
+
+ <!--Acessibilidade-->
+ <div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+<!--Fim Acessibilidade-->
+
+<!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    
+</body>
+
+</html>
