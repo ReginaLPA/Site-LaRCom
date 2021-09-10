@@ -1,0 +1,641 @@
+/*
+* 
+* @author LaRCom
+*/
+
+/*
+Layout 
+------------------------------------------*/
+
+html,
+body,
+#home { 
+  max-width: 100%;
+  max-height: 100%;
+  overflow-x: hidden;
+  
+  
+  
+}
+
+body {
+  background:   #F2F8FB; 
+  background-size:100%;
+  background-repeat: no-repeat;
+  font-family: Open Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  max-width: 100%;
+  max-height: 100%;  
+  
+
+}
+header #nav{
+  background-color: #F2F8FB;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+
+  z-index: 10;
+}
+ #video-carousel{
+  width: 1300px;
+  height: 39.3rem; 
+  object-fit: fill;
+ 
+ 
+}
+
+.container #btn-logo{
+  margin-right: 20px; 
+ }
+ .container #text-logo{
+   font-size: 16px;
+   color:   #253859;
+ }
+
+
+/*
+Barra de navegação 
+------------------------------------------*/
+
+nav.navbar-transparente {
+  padding: 15px 0px;
+ 
+ 
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color:   #253859;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(31, 27, 27);
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(19, 46, 197, 0.3);
+  border-color: black;
+}
+
+.divisor {
+  width: 1px;
+  background: white;
+  margin: 12px 15px;
+}
+/*whatsapp*/
+.whatsapp{
+  position:fixed;
+  bottom:20px;
+  left:30px;
+ 
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+.whatsapp:hover{
+  transform: skew(-5deg);
+  
+}
+.slidein {
+  -moz-animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -moz-animation-name: slidein;
+  -webkit-animation-name: slidein;
+  animation-name: slidein;
+  -moz-animation-iteration-count: 3;
+  -webkit-animation-iteration-count: 3;
+  animation-iteration-count: 3;
+  -moz-animation-direction: alternate;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+@-moz-keyframes slidein {
+  from {
+    margin-left:100%;
+    width:300%
+  }
+
+  to {
+    margin-left:0%;
+    width:100%;
+  }
+}
+
+@-webkit-keyframes slidein {
+  from {
+    margin-left:100%;
+    width:300%
+  }
+
+  to {
+   margin-left:0%;
+   width:100%;
+ }
+}
+
+@keyframes slidein {
+  from {
+    margin-left:100%;
+    width:300%
+  }
+
+  to {
+   margin-left:0%;
+   width:100%;
+ }
+}
+
+/*Cookies*/
+.cookieConsentContainer{
+  z-index:999;
+  width:350px;
+  min-height:20px;
+  box-sizing:border-box;
+  padding:30px 30px 30px 30px;
+  background:#124296;
+  overflow:hidden;
+  position:fixed;
+  bottom:30px;
+  right:30px;
+  display:none;
+  border-radius: 30%;
+}
+  .cookieConsentContainer .cookieTitle a{
+    font-family:OpenSans,arial,sans-serif;
+    color:#F2F8FB;
+    font-size:22px;
+    line-height:20px;
+    display:block
+  }
+  .cookieConsentContainer .cookieDesc p{
+    margin:5px;
+    padding:3px;
+    font-family:OpenSans,arial,sans-serif;
+    color:#fff;
+    font-size:13px;
+    line-height:20px;
+    display:block;
+    margin-top:10px
+  }
+  .cookieConsentContainer .cookieDesc a{
+    font-family:OpenSans,arial,sans-serif;
+    color:#fff;
+    text-decoration:underline;
+    
+    
+  }
+  .cookieConsentContainer .cookieButton a{
+    display:inline-block;
+    font-family:OpenSans,arial,sans-serif;
+    color:#124296;
+    font-size:14px;
+    font-weight:700;
+    margin-top:14px;
+    background:#F2F8FB;
+    box-sizing:border-box;
+    padding:10px 18px;
+    text-align:center;
+    transition:background .3s;   
+    border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+    
+  }
+  .cookieConsentContainer .cookieButton a:hover{
+    cursor:pointer;
+    background:#7385aa;
+    color: white;
+  }
+  
+/*
+Capa
+------------------------------------------*/
+
+.capa {
+  text-align: center;
+
+}
+
+
+.btn-custom {
+  color: white;
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  text-transform: uppercase;
+  transition: background 0.4s, color 0.4s;
+  padding: 10px 20px;
+}
+
+.btn-roxo {
+  /*background: #7c25f8;*/
+  background:  #124296;
+}
+
+.btn-roxo:hover {
+  /*background: #6207e3;*/
+  background: #162cf1;
+  color: white;
+}
+
+.btn-branco {
+  border: 2px solid rgb(27, 15, 190);
+}
+
+.btn-branco:hover {
+  background-color: white;
+  color: black;
+  
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 5%;
+  color: white;
+}
+ 
+
+
+/*
+Estrutura conteúdo
+------------------------------------------*/
+
+
+#servicos {
+  background: #F2F8FB;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+#servicos .container{
+  background: url(../imagens/larcom1.png)  no-repeat; 
+  width: auto;
+  height: auto;
+}
+#servicos p a{
+  color:  #232e21;
+}
+
+#servicos h2{
+  color: #253859;
+}
+
+#servicos h3,h4{
+  color: #253859;
+}
+#servicos img, p {
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 2em 1em 4em / 0.5em 3em;
+}
+
+#servicos img{
+  border-radius: 50%;
+
+}
+#servicos img:hover{
+ 
+  transform: skew(-5deg);
+
+}
+#servicos img {
+  float: left;
+  margin: 10px;
+  border: none;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  object-fit: cover;
+} 
+
+#recursos {
+  background: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#recursos h3{
+  color:  #253859;
+}
+#recursos p{
+  color: #1f1f22;
+}
+
+
+#recursos h2 {
+  color: #253859;
+}
+
+#recursos  p{
+  border: 2px solid #F2F8FB;
+  padding: 10px;
+  border-radius: 2em 1em 4em / 0.5em 3em;
+}
+#recursos img{
+  border-radius: 50%;
+}
+#recursos img:hover{
+  
+  transform: skew(-5deg);
+
+}
+
+#equipe{
+  background: #F2F8FB;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+#equipe h2{
+  color: #253859;
+}
+#img-equipe img{
+  border-radius: 50%;
+}
+#equipe img:hover{
+  cursor:pointer;
+  transform: skew(3deg);
+
+}
+#equipe img #troca:hover{
+  background-image: url(../imagens/equipe1.jpeg);
+}
+#equipe img {
+  float: left;
+  margin: 0;
+  border: none;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  object-fit: cover;
+}
+
+#video{
+  border-radius: 50%;
+  float: left;
+  margin: 0;
+  border: none;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  object-fit: cover;
+  
+}
+#video:hover{
+  transform: skew(-3deg);
+}
+.albuns img{
+  padding: 5px 0;
+  object-fit: cover;
+  text-align: center;
+  
+}
+
+.rotacionar {
+  transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  /* IE 9 */
+  -webkit-transform: rotate(30deg);
+  /* Chrome, Safari, Opera */
+ 
+  padding-top: 120px;
+}
+
+/*
+Tipografia
+------------------------------------------*/
+
+
+h1 {
+  font-weight:700;
+  letter-spacing: -0.05em;
+  margin-bottom: 120px;
+  color:  white;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+
+
+
+
+footer {
+  background:  #1f1f22;
+  padding: 50px 0px 20px 0px;
+  position: relative;
+}
+
+footer h4 {
+  color: #919496;
+  text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+  color: white;
+  font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+  color: #9bf0e1;
+  text-decoration: none;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  float: right;
+   margin: 0px 10px;
+}
+#servicos {
+  margin-top: 0%;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+  .btn-custom {
+    margin: 10px 5px;
+    font-size: 14px;
+    
+  }
+   
+  #servicos h2{
+    font-size: 28px;
+  }
+  #servicos h3{
+    font-size: 25px;
+  }
+  #servicos .albuns img{
+    width: 90%;
+    margin-bottom: 10px;
+    text-align: center;      
+  }
+  #recursos .rotacionar img{
+    width: 80%;
+    float: right;
+    margin-bottom: 10px;
+    text-align: center;
+    
+  }
+  #img-equipe img{
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  
+  #recursos h2{
+    font-size: 30px;
+  }
+  #recursos h3{
+    font-size: 28px;
+  }
+  #recursos  #rota{
+    margin-bottom: -95px;
+  }
+  #servicos, #recursos, #equipe img{
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  #equipe h2{
+    font-size: 30px;
+  
+  } 
+  #video{
+    width: 297px;
+    width: 297px;
+  }
+  
+  
+ 
+  .carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+
+  }
+  .carousel-caption h1 {
+    font-weight:700;   
+    margin-bottom: 100px;
+    
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+  
+  }
+  .carousel-item > #video-carousel {
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    height: 32rem;
+    object-fit: cover;
+  }
+  .carousel-item > img {
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+    object-fit: cover;
+  }
+  
+  .carousel-item #cidade:hover{
+    
+    transform: skew(20deg , 20deg)
+  }
+  .container #logo{
+    width: 70px;
+    height: 50px;
+
+  }
+  .container #text-logo{
+    font-size: 7px;    
+     
+  }
+  
+  
+  footer ul li {
+    float: right;
+     margin: 0px 5px;
+  }
+  
+ 
+  
+}
+
+/* Small devices (landscape phones, 576px and up)  */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  h1 {
+    font-size: 3em;
+  }
+  .btn-custom {
+    margin: 10px 15px;
+  }
+  .container #text-logo{
+    font-size: 7px;    
+     
+  }
+}
+@media (max-width:980px){
+  .cookieConsentContainer{
+    bottom:0!important;
+    left:0!important;
+    width:100%!important;
+    max-height: 180px;
+    
+  }
+  .cookieConsentContainer .cookieTitle a{
+    font-size: 16px;
+  }
+  .cookieConsentContainer .cookieDesc p{
+    font-size: 10px;
+  }
+  .cookieConsentContainer .cookieButton a{
+    padding:8px 15px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)  */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  h1 {
+    font-size: 4em;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  h1 {
+    font-size: 5em;
+  }
+  
+}
+
+/* Extra large devices (large desktops, 1200px and up)  */
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 6em;
+  }
+}
+
+
+
