@@ -38,8 +38,7 @@ header #nav{
   z-index: 10;
 }
  #video-carousel{
-  width: 1600px;
-  height: 39.3rem; 
+  width: 100%; 
   object-fit: cover;
  
  
@@ -63,8 +62,7 @@ Barra de navegação
 ------------------------------------------*/
 
 nav.navbar-transparente {
-  padding: 15px 0px;
- 
+  padding: 15px 0px; 
  
 }
 
