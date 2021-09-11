@@ -38,9 +38,9 @@ header #nav{
   z-index: 10;
 }
  #video-carousel{
-  width: 1300px;
+  width: 1400px;
   height: 39.3rem; 
-  object-fit: fill;
+  object-fit: cover;
  
  
 }
