@@ -44,9 +44,13 @@ header #nav{
  
  
 }
+.container a #logo{
+  width:90px ;
+  height:50px;
+}
 
 .container #btn-logo{
-  margin-right: 20px; 
+  margin-right: 10px; 
  }
  .container #text-logo{
    font-size: 16px;
@@ -69,7 +73,7 @@ nav.navbar-transparente {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: rgb(31, 27, 27);
+  color: #162cf1;
 }
 
 .navbar-light .navbar-toggler {
@@ -264,14 +268,17 @@ Estrutura conteúdo
 
 #servicos {
   background: #F2F8FB;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 10px;
+  
+  
 
 }
 #servicos .container{
-  background: url(../imagens/larcom1.png)  no-repeat; 
+  background: url(../imagens/larcom1.png) ; 
   width: auto;
   height: auto;
+ 
 }
 #servicos p a{
   color:  #232e21;
@@ -302,12 +309,16 @@ Estrutura conteúdo
 #servicos img {
   float: left;
   margin: 10px;
+  margin-top: 50px;
   border: none;
   padding: 10px;
   background: #fff;
   border: 1px solid #ddd;
   object-fit: cover;
 } 
+#servicos {
+  margin-top: 0%;
+}
 
 #recursos {
   background: white;
@@ -427,10 +438,6 @@ h3 {
   letter-spacing: 0.04em;
 }
 
-
-
-
-
 footer {
   background:  #1f1f22;
   padding: 50px 0px 20px 0px;
@@ -440,6 +447,7 @@ footer {
 footer h4 {
   color: #919496;
   text-transform: uppercase;
+  margin-top:25px;
 }
 
 footer .navbar-nav a {
@@ -460,9 +468,14 @@ footer ul li {
   float: right;
    margin: 0px 10px;
 }
-#servicos {
-  margin-top: 0%;
+footer ul li img {
+  margin-top:20px;
 }
+footer img{
+  margin-top:25px;
+}
+
+
 
 /* Extra small devices (portrait phones, less than 576px) */
 
@@ -560,15 +573,14 @@ footer ul li {
     transform: skew(20deg , 20deg)
   }
   .container #logo{
-    width: 70px;
-    height: 50px;
+    width: 30px;
+    height: 20px;
 
   }
   .container #text-logo{
-    font-size: 7px;    
+    font-size: 8px;    
      
-  }
-  
+  }  
   
   footer ul li {
     float: right;
@@ -589,7 +601,7 @@ footer ul li {
     margin: 10px 15px;
   }
   .container #text-logo{
-    font-size: 7px;    
+    font-size: 8px;    
      
   }
 }
@@ -618,6 +630,12 @@ footer ul li {
   h1 {
     font-size: 4em;
   }
+  #video{
+    width: 160px;
+    height: 160px;
+  }
+  
+  
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -625,6 +643,10 @@ footer ul li {
 @media (min-width: 992px) and (max-width: 1199.98px) {
   h1 {
     font-size: 5em;
+  }
+  #video{
+    width: 220px;
+    height: 220px;
   }
   
 }

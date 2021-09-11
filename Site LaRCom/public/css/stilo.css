@@ -13,9 +13,7 @@ body,
   max-width: 100%;
   max-height: 100%;
   overflow-x: hidden;
-  
-  
-  
+     
 }
 
 body {
@@ -31,23 +29,42 @@ body {
 header #nav{
   background-color: #F2F8FB;
 }
+
+ 
 .container a #logo{
   width:90px ;
   height:50px;
 }
-.carousel-caption {
-  bottom: 3rem;
-
-  z-index: 10;
-}
 
 .container #btn-logo{
-  margin-right: 20px; 
+  margin-right: 10px; 
  }
  .container #text-logo{
-  font-size: 16px;
-  color:   #253859;
+   font-size: 16px;
+   color:   #253859;
+ }
+
+
+/*
+Barra de navegação 
+------------------------------------------*/
+
+nav.navbar-transparente {
+  padding: 15px 0px;
+ 
+ 
 }
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #162cf1;
+}
+
+.divisor {
+  width: 1px;
+  background: white;
+  margin: 12px 15px;
+}
+
 
 /*Cookies*/
 .cookieConsentContainer{
@@ -72,8 +89,8 @@ header #nav{
     display:block
   }
   .cookieConsentContainer .cookieDesc p{
-    margin:3px;
-    padding:5px;
+    margin:5px;
+    padding:3px;
     font-family:OpenSans,arial,sans-serif;
     color:#fff;
     font-size:13px;
@@ -110,62 +127,15 @@ header #nav{
     background:#7385aa;
     color: white;
   }
-  @media (max-width:980px){
-    .cookieConsentContainer{
-      bottom:0!important;
-      left:0!important;
-      width:100%!important;
-      max-height: 180px;
-    }
-    .cookieConsentContainer .cookieTitle a{
-      font-size: 16px;
-    }
-    .cookieConsentContainer .cookieDesc p{
-      font-size: 10px;
-    }
-    .cookieConsentContainer .cookieButton a{
-      padding:8px 15px;
-    }
-  }
-/*
-Barra de navegação 
-------------------------------------------*/
-
-nav.navbar-transparente {
-  padding: 15px 0px;
- 
- 
-}
-
-.navbar-light .navbar-nav .nav-link {
-  color:   #253859;
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-  color: rgb(31, 27, 27);
-}
-
-.navbar-light .navbar-toggler {
-  color: rgba(19, 46, 197, 0.5);
-  border-color: black;
-}
-
-.divisor {
-  width: 1px;
-  background: white;
-  margin: 12px 15px;
-}
-
+  
 /*
 Capa
 ------------------------------------------*/
 
 .capa {
   text-align: center;
-  
-  
-}
 
+}
 
 .btn-custom {
   color: white;
@@ -213,14 +183,12 @@ Estrutura conteúdo
 
 #servicos {
   background: #F2F8FB;
-  padding-top: 60px;
+  padding-top: 20px;
   padding-bottom: 10px;
-
+  
 }
-
 #servicos p a{
   color:  #232e21;
-  text-align: justify;
 }
 
 #servicos h2{
@@ -230,28 +198,25 @@ Estrutura conteúdo
 #servicos h3,h4{
   color: #253859;
 }
-#servicos h4{
-  font-size: 20px;
-}
 #servicos img, p {
   border: 2px solid white;
   padding: 10px;
   border-radius: 2em 1em 4em / 0.5em 3em;
-  text-align: justify;
 }
 
 #servicos img{
-  border-radius: 50%;  
-  object-fit: cover;
+  border-radius: 50%;
+
 }
 #servicos img:hover{
-  transform: skew(3deg);
-}
-#parceiro img{
-  object-fit: fill;
-  border: none;
-}
+ 
+  transform: skew(-5deg);
 
+}
+ 
+#servicos {
+  margin-top: 0%;
+}
 
 #recursos {
   background: white;
@@ -281,11 +246,54 @@ Estrutura conteúdo
 }
 #recursos img:hover{
   
-  transform: skew(-3deg);
+  transform: skew(-5deg);
 
 }
 
+#equipe{
+  background: #F2F8FB;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
+}
+#equipe h2{
+  color: #253859;
+}
+#img-equipe img{
+  border-radius: 50%;
+}
+#equipe img:hover{
+  cursor:pointer;
+  transform: skew(3deg);
+
+}
+#equipe img #troca:hover{
+  background-image: url(../imagens/equipe1.jpeg);
+}
+#equipe img {
+  float: left;
+  margin: 0;
+  border: none;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  object-fit: cover;
+}
+
+#video{
+  border-radius: 50%;
+  float: left;
+  margin: 0;
+  border: none;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  object-fit: cover;
+  
+}
+#video:hover{
+  transform: skew(-3deg);
+}
 .albuns img{
   padding: 5px 0;
   object-fit: cover;
@@ -307,6 +315,7 @@ Estrutura conteúdo
 Tipografia
 ------------------------------------------*/
 
+
 h1 {
   font-weight:700;
   letter-spacing: -0.05em;
@@ -327,10 +336,6 @@ h3 {
   letter-spacing: 0.04em;
 }
 
-
-
-
-
 footer {
   background:  #1f1f22;
   padding: 50px 0px 20px 0px;
@@ -340,6 +345,7 @@ footer {
 footer h4 {
   color: #919496;
   text-transform: uppercase;
+  margin-top:25px;
 }
 
 footer .navbar-nav a {
@@ -360,22 +366,17 @@ footer ul li {
   float: right;
    margin: 0px 10px;
 }
-#servicos {
-  margin-top: 0%;
+footer ul li img {
+  margin-top:20px;
 }
+footer img{
+  margin-top:25px;
+}
+
+
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 320px) {
-  .container img #logo{
-    width: 50px;
-    height: 30px;
 
-  }
-  .container #text-logo{
-    font-size: 6px; 
-    
-  }
-}
 @media (max-width: 575.98px) {
   .btn-custom {
     margin: 10px 5px;
@@ -386,16 +387,17 @@ footer ul li {
   #servicos h2{
     font-size: 28px;
   }
-  #servicos h3{
+  #servicos h3,h4{
     font-size: 25px;
+  }
+  #servicos h4{
+    font-size: 23px;
   }
   #servicos .albuns img{
     width: 90%;
     margin-bottom: 10px;
-    text-align: center;     
-  
+    text-align: center;      
   }
-  
   #recursos .rotacionar img{
     width: 80%;
     float: right;
@@ -411,11 +413,8 @@ footer ul li {
   #recursos h2{
     font-size: 30px;
   }
-  #recursos h3{
+  #recursos h3,h4{
     font-size: 28px;
-  }
-  #recursos h4{
-    font-size: 20px;
   }
   #recursos  #rota{
     margin-bottom: -95px;
@@ -428,6 +427,11 @@ footer ul li {
     font-size: 30px;
   
   } 
+  #video{
+    width: 297px;
+    width: 297px;
+  }
+  
   
  
   .carousel {
@@ -450,6 +454,13 @@ footer ul li {
     height: 32rem;
   
   }
+  .carousel-item > #video-carousel {
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    height: 32rem;
+    object-fit: cover;
+  }
   .carousel-item > img {
     top: 0;
     left: 0;
@@ -457,16 +468,21 @@ footer ul li {
     height: 32rem;
     object-fit: cover;
   }
-  .container img #logo{
-    width: 60px;
-    height: 30px;
+  
+  .carousel-item #cidade:hover{
+    
+    transform: skew(20deg , 20deg)
+  }
+  .container #logo{
+    width: 30px;
+    height: 20px;
 
   }
   .container #text-logo{
-    font-size: 7px; 
-    
-  }
-
+    font-size: 8px;    
+     
+  }  
+  
   footer ul li {
     float: right;
      margin: 0px 5px;
@@ -485,8 +501,28 @@ footer ul li {
   .btn-custom {
     margin: 10px 15px;
   }
-  
-  
+  .container #text-logo{
+    font-size: 7px;    
+     
+  }
+}
+@media (max-width:980px){
+  .cookieConsentContainer{
+    bottom:0!important;
+    left:0!important;
+    width:100%!important;
+    max-height: 180px;
+    
+  }
+  .cookieConsentContainer .cookieTitle a{
+    font-size: 16px;
+  }
+  .cookieConsentContainer .cookieDesc p{
+    font-size: 10px;
+  }
+  .cookieConsentContainer .cookieButton a{
+    padding:8px 15px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up)  */
@@ -495,6 +531,7 @@ footer ul li {
   h1 {
     font-size: 4em;
   }
+  
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -513,3 +550,6 @@ footer ul li {
     font-size: 6em;
   }
 }
+
+
+
