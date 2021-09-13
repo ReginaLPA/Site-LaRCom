@@ -274,7 +274,8 @@ Estrutura conteúdo
 
 }
 #servicos .container{
-  background: url(../imagens/larcom1.svg) ; 
+  background: url(../imagens/larcom1.png) ; 
+ /* background-repeat: no-repeat;*/
   width: auto;
   height: auto;
  
@@ -369,7 +370,8 @@ Estrutura conteúdo
 
 }
 #equipe img #troca:hover{
-  background-image: url(../imagens/equipe1.jpeg);
+  background-image: url(../imagens/equipe1.svg);
+  
 }
 #equipe img {
   float: left;
