@@ -198,7 +198,7 @@ Estrutura conteúdo
 #servicos h3,h4{
   color: #253859;
 }
-#servicos img, p {
+#servicos  p {
   border: 2px solid white;
   padding: 10px;
   border-radius: 2em 1em 4em / 0.5em 3em;
@@ -206,12 +206,16 @@ Estrutura conteúdo
 
 #servicos img{
   border-radius: 50%;
-
+  object-fit: cover;
 }
 #servicos img:hover{
  
   transform: skew(-5deg);
 
+}
+#servicos #parceiro img{
+  
+  object-fit: fill;
 }
  
 #servicos {
